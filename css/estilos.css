@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: white;
+    font: bold 60px "Poppins", sans-serif;
+    text-align: center;
+    margin: 0 200px;
+    margin-top: 30px;
+    border-bottom: solid 20px #4D6D63;
+    border-top: solid 20px #4D6D63;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+
+p{
+    color: white;
+}
+
+.terminos-novedades{
+    color: white;
+}
+
+
+.medida-campos{
+    width: 500px;
+    margin: 10px;
+}
+
+input, select[class]{
+    height: 30px;
+}
+
+
+
+body{
+    background-color: #1F2023;
+
+}
+
+form, select{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+}
+
+fieldset{
+    background-color:#D6E2DE;
+    border: solid 3px #4D6D63;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 30px 200px;
+    padding: 20px;
+}
+
+span{
+    font-size: 25px;
+}
+
+legend{
+    font: bold 18px 'Roboto', sans-serif;
+    text-align: left;
+    background-color:#4D6D63;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+input, select, textarea{
+    border-radius: 5px;
+    
+}
+
+#last-checks{
+    margin-left: 200px;
+}
+
+.last-text{
+    font-size: 15px ;
+}
+
+button{
+    font-size: 20px;
+    background-color: #2B3D37;
+    border: solid 2px #435C55;
+    border-radius: 3px;
+    color: #83B1B0;
+    padding: 7px 15px;
+    margin: 10px
+
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.actividades-izquierda{
+    text-align: left;
+
+}
+
+.actividades-izquierda > p{
+    color: black;
+}
+
+input{
+  vertical-align: middle;
+}
+
+input::placeholder{
+    font-size: 18px;
+    text-align: right;
+}
+
+select{
+    color: #2B3D37;
+}
+
+.separador{
+    border-bottom: 10px #A6C1B9 dotted;
+    margin: 0 500px;
+}
+
+
+
+fieldset:focus-within{
+    background-color: #A6C1B9;
+    
+}
+
+
+fieldset:focus-within legend{
+    background-color: #2B3D37;
+    
+}
+
+input:focus{
+    background-color: #2B3D37;
+}
+
+textarea:focus{
+    background-color: #2B3D37;
+}
+
+button:hover{
+    background-color: #83B1B0  ;
+    color: #2B3D37;
+
+}
+

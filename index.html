@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Afiliacion</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Vení al GYM! 💪🏽</h1>
+
+    </header>
+
+
+    <form action="" method="post">
+        <fieldset>
+            <legend class="formu">🙋🏽‍♂️ <span>D</span>ATOS <span>P</span>ERSONALES 👀</legend>
+
+            <label for="nombre">Nombre:*</label><br>
+            <input type="text" class="medida-campos" id="nombre" required><br>
+
+
+            <label for="apellido">Apellido:*</label><br>
+            <input type="text" class="medida-campos" id="apellido" required><br>
+
+            <label for="dni">Documento:*</label><br>
+            <input type="number" class="medida-campos" id="dni" name="dni" required><br>
+
+            <label for="nacionalidad">Nacionalidad:*</label><br>
+            <select name="paises" class="medida-campos" id="nacionalidad" required><!--  -->
+                <option value="" disabled selected>- Seleccionar -</option>
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="chile">Chile</option>
+                <option value="colombia">Colombia</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="venezuela">Venezuela</option>
+            </select><br>
+
+            <label for="comentarios">Contanos un poco de vos...</label><br>
+            <textarea cols="30" rows="10" class="medida-campos"></textarea><br><!--  -->
+
+            <label for="sexo">Sexo:*</label><br>
+
+            <input type="radio" id="sexo" value="fem" name="opciones" required>
+            <label for="sexo">Femenino</label>
+
+            <input type="radio" id="sexo" value="mas" name="opciones" required>
+            <label for="sexo">Masculino</label>
+
+            <input type="radio" id="sexo" value="otro" name="opciones" required>
+            <label for="sexo">Otro</label>
+
+        </fieldset>
+        <div class="separador"></div>
+
+        <fieldset>
+            <legend class="formu"> 📱 <span>D</span>ATOS DE <span>C</span>ONTACTO 📧 </legend>
+
+            <label for="tel">Teléfono</label><br>
+            <input type="number" name="tel" class="medida-campos" id="tel" placeholder="Código de área y número"><br>
+
+            <label for="mail">Direccion de correo electrónico:*</label><br>
+            <input type="email" name="mail" class="medida-campos" id="mail" placeholder="Ej: mail@gmail.com" required>
+
+        </fieldset>
+        <div class="separador"></div>
+
+        <fieldset class="actividades-izquierda">
+            <legend class="formu"> 🚴🏽‍♂️ <span>A</span>CTIVIDADES 🤸🏽‍♂️ </legend>
+
+            <p class="last-text">Por favor, indicá cuáles actividades te interesan</p>
+
+            <p>Sede Palermo:</p>
+
+            <input type="checkbox" id="basquetp" name="actividad">
+            <label for="basquet">Básquet</label>
+
+            <input type="checkbox" id="boxeo" name="actividad">
+            <label for="boxeo">Boxeo</label>
+
+            <input type="checkbox" id="futbolp" name="actividad">
+            <label for="futbol">Fútbol</label>
+
+            <input type="checkbox" id="tenis" name="actividad">
+            <label for="tenis">Tenis</label><br>
+
+            <p>Sede Rosario:</p>
+
+            <input type="checkbox" id="basquetr" name="actividad">
+            <label for="basquet">Básquet</label>
+
+            <input type="checkbox" id="futbolr" name="actividad">
+            <label for="futbol">Fútbol</label>
+
+            <input type="checkbox" id="rugby" name="actividad">
+            <label for="rugby">Rugby</label>
+
+            <input type="checkbox" id="voley" name="actividad">
+            <label for="voley">Voley</label>
+
+        </fieldset>
+
+        <div id="last-checks">
+            <input type="checkbox" id="condiciones" name="condiciones" required>
+            <label for="condiciones" class="terminos-novedades">Acepto las condiciones*</label><br>
+
+            <input type="checkbox" id="novedades" name="novedades" checked>
+            <label for="novedades" class="terminos-novedades">Deseo recibir novedades</label>
+            <br>
+
+            <p>*:campo obligatorio</p>
+        </div>
+        <br>
+        <div id="botones">
+            <button type="submit">Iniciar afiliación</button>
+            <button type="reset">Restablecer</button>
+        </div>
+
+
+</body>
+
+</html>
